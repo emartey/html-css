@@ -61,6 +61,11 @@ p {
   margin-top: 4%;
 }
 
+ul{
+  margin-left: 28%;
+  font-size: 121%;
+}
+
 
 h1,
 h2,
@@ -84,6 +89,12 @@ h2,
 h3 {
   font-size: 22px;
 }
+
+#hob {
+text-decoration: underline;
+font-size: 230%;
+}
+
 .row {
   
   display: flex;
