@@ -26,6 +26,14 @@ a{
   list-style: none;
   margin-left: 44%;
 }
+.navbar{
+top: 0;
+transition: all .3s;
+}
+
+.navbar.hide {
+  top: -50px
+}
 
 nav a {
 
