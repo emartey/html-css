@@ -152,43 +152,29 @@ div.desc {
   text-align: center;
 }
 
-/* * Center website */ 
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-  padding-bottom: 0px;
-  margin-bottom: 0px;
-} */
-
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
+ flex-flow: column wrap;
   width: 25%;
 }
 
 /* Clear floats after rows */
 .row:after {
   content: "";
-  display: table;
-  clear: both;
+  display: flex;
+
 }
 
 /* Content */
 .content-gallery {
-
+  padding: 10px;
   transition: transform 0.15s; /* Animation */
 }
 
-.zoom:hover {
-  transform: scale(
-    2
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 
 .zoom2:hover {
   transform: scale(
-    3
+    1.5
   ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
