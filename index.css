@@ -3,7 +3,7 @@ body {
   /* font-size: 18px; */
   line-height: 34px;
   color: #777777;
-  background: url("/assets/newAssets/hotel-wallpaper.png");
+  background: url("./assets/newAssets/hotel-wallpaper.png");
   padding-top: 1%;
 }
 
@@ -61,7 +61,7 @@ p {
   margin-top: 4%;
 }
 
-ul{
+#hoblist {
   margin-left: 28%;
   font-size: 121%;
 }
